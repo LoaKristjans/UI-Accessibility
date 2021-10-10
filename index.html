@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Accessibility</title>
+</head>
+
+<body>
+    <header class="banner" role="banner">
+        <h1 role="Website title" class="webTitle">Accessibility</h1>
+        <nav role="Navigation" aria-label="Main menu" class="buttons">
+        <button class="button1" role="TextSize">Contrast</button>
+        <button class="button1" role="Colors">Colors</button>
+        <button class="button1" role="Contrast">Alt Tags</button>
+        <button class="button1" role="AltTags">Form </button>
+        <button class="button1" role="CodeButton">Focus </button>
+        </nav>
+    </header>
+    
+    <main role="main" aria-label="Information about accessibility design">
+    <section class="AboutAccessibility" aria-label="What is Accessibility" role="region">
+        <h2 class="subTitle">What is UI Accessibility?</h2>
+            <p>
+                It is a designers responsibility to make sure that everyone has access to what is on the website. Website
+                accessibility lawsuits can be filed if a website is not accessible enough. Studies show that accessible
+                websites have better search results and reach a bigger audience.
+            </p>
+    </section>
+
+    <section class="aboutTextSize" role="region" aria-label="What text sizing means in accessible design">
+        <h2 class="subTitle">Color Contrast</h2>
+            <p>
+                Color contrast is an often overlooked web accessibility problem. People who have low vision could find it
+                difficult to read text from a background color if it has low contrast. It is critical to consider the sufficient
+                contrast between text and backgrounds. There are many ways to check the quality of the color contrast
+                but for example this website https://coolors.co/contrast-checker is a good one.
+            </p>
+    </section>
+
+    <section class="aboutColors" role="region" aria-label="Colors in accessible design">
+        <h2 class="subTitle">Colors to differentiate Information</h2>
+            <p>
+                Using only color to differentiate things might make color blind people confused, it’s important to not use
+                only color to make critical information understandable. People with low visual acuity or color blindness
+                will have a hard time understanding your content. Try to use an indicator other than color such as text
+                labels or patterns.
+            </p>
+    </section>
+
+    <section class="aboutContrast" role="region" aria-label="Contrast in accessible design">
+        <h2 class="subTitle">Alt Tags</h2>
+            <p>
+                Alt tags stands for Alternative tags. It reads out what is on a photo if an individual can’t see it. There are
+                two ways that you can present alternative text. Within the <alt> attribute of the image element or within
+                context or surroundings of the image itself.
+            </p>
+            <div class="picContainer">
+                <img class="pic1" src="images/gabriel-dizzi-WPXxp36tkHQ-unsplash.jpg" alt="Picture of a whale swimming in the">
+            </div>
+    </section>
+
+    <section class="aboutAltTags" role="region" aria-label="Alt tags in accessible design">
+        <h2 class="subTitle">Form Labels</h2>
+            <p>
+                People who use screen readers usually navigate through a form using the Tab key to jump through the
+                form controls. The <label> elements are read for each form control. Any non-label text, as placeholder
+                text, is usually skipped over.
+            </p>
+    </section>
+
+    <section class="aboutCode" role="region" aria-label="Code in accessible design">
+        <h2 class="subTitle">Focus States</h2>
+            <p>
+                Focus indicators help people know which element has the keyboard focus and help them understand where they are when navigating your site. These are used by people who are blind and require screen readers, individuals with limited mobility, individuals who have suffered injuries like carpal tunnel, and power users who prefer this type of navigation.
+
+            </p>
+    </section>
+    </main>
+    
+    <footer class="footer" role="contentinfo">
+        <p class="endtext">Accessability, the responsibility of the designer!</p>
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.webTitle{
+    color: #FFF1E2 ;
+    padding-top:60px;
+    padding-left: 60px;
+    font-size: 30px;
+    margin-left: 60px;
+    margin: 0px;
+}
+
+.banner{
+    background-color: #3346A9;
+   
+    margin-top: -35px;
+    height: 150px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.buttons{
+    display: inline-block;
+    flex-wrap: wrap;
+    float: right;
+    margin-top:-40px;
+    width: 60%;
+}
+
+.buttons > button{
+    margin: 3%;
+}
+
+.button1{
+    width: 100px;
+    height: 30px;
+    color: #3346A9;
+    background-color: #FFF1E2;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #FFF1E2;
+    font-size: 18px;
+    transition: ease-out 0.5s;
+    box-shadow: 3px 3px 10px #FFF1E2;
+}
+
+
+.button1:hover{
+    background-color: #a4825e;
+    color: black;
+}
+
+.AboutAccessibility{
+    margin-right: 45%;
+    line-height: 1.6;
+}
+
+.subTitle{
+    margin-top: 150px;
+}
+
+.aboutTextSize{
+    margin-left: 35%;
+    line-height: 1.6;
+}
+
+.aboutColors{
+    margin-right: 45%;
+    line-height: 1.6;
+}
+
+.aboutContrast{
+    margin-left: 35%;
+    line-height: 1.6;
+}
+
+.aboutAltTags{
+    line-height: 1.6;
+    margin-right: 20%;
+}
+
+.picContainer{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30%;
+}
+
+.pic1{
+    width: 600px;
+    height: auto;
+}
+
+
+.aboutCode{
+    line-height: 1.6;
+    margin-left: 30%;
+    margin-bottom: 150px;
+}
+
+.footer{
+    background-color: #3346A9;
+    color: #FFF1E2;
+    height: 100px;
+    margin-bottom: -10px;
+    margin-left: -9px;
+    margin-right: -10px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.endtext{
+    padding-top: 25px;
+}
