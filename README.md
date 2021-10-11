@@ -1,2 +1,0 @@
-# UI Accessibility
-# Live website: 
